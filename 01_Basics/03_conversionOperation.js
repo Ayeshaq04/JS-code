@@ -19,3 +19,26 @@ let stringNum = String(someNumber);
 console.log(stringNum);
 console.log(typeof stringNum);
 
+
+
+// ****** Operations ****** //
+
+/* Prefix 
+let x = 3;
+const y = ++x;
+// x is 4; y is 4
+
+let x2 = 3n;
+const y2 = ++x2;
+// x2 is 4n; y2 is 4n
+*/
+
+/*Postfix 
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+// x2 is 4n; y2 is 3n
+*/
