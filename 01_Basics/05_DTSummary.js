@@ -1,25 +1,30 @@
 // KIM => JS is a dynamic lang
 
+// Primitive Data Types [07]
 
-// Primitive DT [07]
+/* 
+String, Number, Boolean, null, undefined, BigInt, Symbol 
+(used when you want to make a value unique) 
+*/
 
-/* String, Number, Boolean, null, undefined, BigInt, Symbol(used when want to make a value unique) */
+// Example of some primitive data types
+const score = 100; // Number
+const scoreVal = 100.9; // Number
+let userName; // undefined
 
-const score = 100;
-const scoreVal = 100.9;
+const id = Symbol('123'); // Symbol
+const anotherId = Symbol('123'); // Symbol
 
-let userName;
+// Symbols are always unique, even if they have the same description
+console.log(id === anotherId); // false
 
-const id = Symbol('123');
-const anotherId = Symbol('123');
+const bigNum = 34374208943498392n; // BigInt
 
-console.log(id === anotherId);
+// Non-Primitive Data Types [Reference]
 
-const bigNum = 34374208943498392n;
-
-
-// Non-Primitive DT [Reference]
-
-/* Array, Objects, Functions*/ 
+/* Array, Objects, Functions */ 
 
 const heros = ["Shaktiman", "Spiderman", "Batman"];
+let hero = heros[0];
+
+console.log(hero);
