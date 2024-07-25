@@ -7,7 +7,7 @@ console.log(myName.indexOf('y'));
 const newString = myName.substring(3,7)
 console.log(newString); //here we can't use -ve values.
 
-console.log(`Hello my name is ${myName}!`)
+console.log(`Hello my name is ${myName}!`) // we should start using this form instead of the [""]
 
 const newStr = myName.slice(-3,7)
 console.log(newStr);
